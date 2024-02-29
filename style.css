@@ -21,7 +21,7 @@
 
 }
 
-.website-logo-dot {
+.red-dot {
     color: red;
 }
 
@@ -29,19 +29,19 @@
     width: 50%;
 }
 
-.nav-bar-links-container {
+.nav-bar-link-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
 
-.nav-bar-links {
+.nav-links {
     color: #747579;
     font-weight: 600;
 }
 
-.nav-bar-links:hover {
+.nav-links:hover {
     color: red;
     text-decoration: none;
 }
@@ -87,7 +87,7 @@
     transition: 0.2s;
 }
 
-.categories-dropdown-list {
+.categories {
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@ hr {
     margin: 0px;
 }
 
-.categories-dropdown-list-items {
+.categories-items {
     list-style-type: none;
     font-weight: 600;
     color: #747579;
@@ -110,7 +110,7 @@ hr {
     cursor: pointer;
 }
 
-.categories-dropdown-list-items:hover {
+.categories-items:hover {
     color: red;
 }
 

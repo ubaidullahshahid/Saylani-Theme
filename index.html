@@ -1,91 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="main-div">
-        <div class="nav-bar-container">
-            <div class="nav-bar-first-part">
-                <div class="website-logo-container">
-                    <h3 class="website-logo">Append <span class="website-logo-dot">.</span></h3>
-                </div>
-            </div>
-            <div class="nav-bar-second-part">
-                <div class="nav-bar-links-container">
-                    <a href="#" class="nav-bar-links">Home</a>
-                    <a href="#" class="nav-bar-links">About</a>
-                    <a href="#" class="nav-bar-links">Service</a>
-                    <a href="#" class="nav-bar-links">Portfolio</a>
-                    <a href="#" class="nav-bar-links">Team</a>
-                    <a href="#" class="nav-bar-links">Blog</a>
-                    <div class="categories-dropdown-navbar">
-                        <div class="categories-hd-container">
-                            <p class="categories-hd">Categories <i class="fa-solid fa-caret-down"> </i></p>
-                        </div>
-                        <div class="categories-dropdown">
-                            <ul class="categories-dropdown-list">
-                                <li class="categories-dropdown-list-items">Development</li>
-                                <li class="categories-dropdown-list-items">Desing</li>
-                                <li class="categories-dropdown-list-items">Marketing</li>
-                                <li class="categories-dropdown-list-items">Music</li>
-                                <li class="categories-dropdown-list-items">LIfestyle</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <a href="#" class="nav-bar-links">Contact</a>
-                </div>
-            </div>
-            <div class="nav-bar-third-part">
-                <button class="nav-bar-btn">Get Started</button>
-                <div class="nav-bar-responsive-icon"><i class="fa-solid fa-bars"></i></div>
-            </div>
+      <div class="nav-bar-container">
+        <div class="nav-bar-first-part">
+          <div class="website-logo-container">
+            <h3 class="website-logo">
+              Append <span class="red-dot">.</span>
+            </h3>
+          </div>
         </div>
-        <div class="home-page-main-container">
-            <div class="home-page-child-container">
-                <div class="welcome-text-container">
-                    <h1 class="welcome-text-hd" data-aos="fade-up">Welcome to Our Website</h1>
-                    <p class="welcome-text-para" data-aos="fade-up">We are team of talented designers making websites with Bootstrap</p>
-                    <div class="welcome-text-input-and-btn-container">
-                        <input type="email" class="welcome-text-email-input" data-aos="fade-up" placeholder="Enter email address">
-                        <button class="welcome-text-input-btn" data-aos="fade-up">Sign up</button>
-                    </div>
-                </div>
+        <div class="nav-bar-second-part">
+          <div class="nav-bar-link-wrap">
+            <a href="#" class="nav-links">Home</a>
+            <a href="#" class="nav-links">About</a>
+            <a href="#" class="nav-links">Service</a>
+            <a href="#" class="nav-links">Portfolio</a>
+            <a href="#" class="nav-links">Team</a>
+            <a href="#" class="nav-links">Blog</a>
+            <div class="categories-dropdown-navbar">
+              <div class="categories-hd-container">
+                <p class="categories-hd">
+                  Categories <i class="fa-solid fa-caret-down"> </i>
+                </p>
+              </div>
+              <div class="categories-dropdown">
+                <ul class="categories">
+                  <li class="categories-items">Development</li>
+                  <li class="categories-items">Desing</li>
+                  <li class="categories-items">Marketing</li>
+                  <li class="categories-items">Music</li>
+                  <li class="categories-items">LIfestyle</li>
+                </ul>
+              </div>
             </div>
+            <a href="#" class="nav-bar-links">Contact</a>
+          </div>
         </div>
-        <div class="other-websites-images-container">
-            <img class="other-website-image" src="./images/other-website-img-1.png" alt="other-website-img-1">
-            <img class="other-website-image" src="./images/other-website-img-2.png" alt="other-website-img-2">
-            <img class="other-website-image" src="./images/other-website-img-3.png" alt="other-website-img-3">
-            <img class="other-website-image" src="./images/other-website-img-4.png" alt="other-website-img-4">
-            <img class="other-website-image" src="./images/other-website-img-5.png" alt="other-website-img-5">
-
+        <div class="nav-bar-third-part">
+          <button class="nav-bar-btn">Get Started</button>
+          <div class="nav-bar-responsive-icon">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
+      </div>
+      <div class="home-page-main-container">
+        <div class="home-page-child-container">
+          <div class="welcome-text-container">
+            <h1 class="welcome-text-hd" data-aos="fade-up">
+              Welcome to Our Website
+            </h1>
+            <p class="welcome-text-para" data-aos="fade-up">
+              We are team of talented designers making websites with Bootstrap
+            </p>
+            <div class="welcome-text-input-and-btn-container">
+              <input
+                type="email"
+                class="welcome-text-email-input"
+                data-aos="fade-up"
+                placeholder="Enter email address"
+              />
+              <button class="welcome-text-input-btn" data-aos="fade-up">
+                Sign up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
